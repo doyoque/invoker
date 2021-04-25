@@ -1,0 +1,27 @@
+services:
+  loadbalancer:
+    image: haproxy
+    ports:
+      - "8383:8080"
+    volumes:
+      - ./user-app/haproxy:/usr/local/etc/haproxy
+
+  # all needed container nodejs app
+  nodeapp1:
+    build:
+      context: ./user-app
+    image: nodeapp/js
+    environment:
+      - APPID=1111
+  nodeapp2:
+    image: nodeapp/js
+    environment:
+      - APPID=2222
+  nodeapp3:
+    image: nodeapp/js
+    environment:
+      - APPID=3333
+  nodeapp4:
+    image: nodeapp/js
+    environment:
+      - APPID=4444
