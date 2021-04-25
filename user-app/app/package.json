@@ -1,0 +1,14 @@
+{
+  "name": "user-app",
+  "version": "1.0.0",
+  "description": "User back-end app with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js"
+  },
+  "author": "Abiyoga Bayu Primadi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
