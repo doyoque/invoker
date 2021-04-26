@@ -1,6 +1,6 @@
 # INVOKER
 
-__From the first point was begat a line. From this line was begat a world. And that first point was one I made.__
+_From the first point was begat a line. From this line was begat a world. And that first point was one I made._
 - **Carl**, the **Invoker**
 
 ## Just What Is This
