@@ -1,4 +1,10 @@
 services:
+  golangback:
+    build:
+      context: ./golang-back
+    image: back/golang
+    ports:
+      - "8081:8081"
   loadbalancer:
     image: haproxy
     ports:
